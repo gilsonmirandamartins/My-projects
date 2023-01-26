@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+*{
+     margin: 0px;
+     padding: 0px;
+
+}
+
+@font-face {
+    font-family:  'draft' ;
+    src: url(Font/EVILDEAD.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'italics';
+    src: url(Font/KGPrimaryItalics.ttf) format('truetype');
+}
+
+body{
+    
+    background-color: aliceblue;
+    min-height: 100vh;
+    
+}
+
+header{
+
+    background-color: darkolivegreen;
+    box-shadow: 0px 2px 5px black;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'draft', Arial, Helvetica, sans-serif;
+    font-size: 7vw;
+    font-variant: small-caps;
+    padding: 70px 0px 20px 0px;
+}
+
+p.title{
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 80px;
+    text-shadow: 0px 0px 0px black;
+}
+
+p{
+    font-family: 'italics', Arial, Helvetica, sans-serif;
+    text-shadow: 5px 0px 30px rgba(24, 24, 24, 0.274);
+    
+}
+
+p.imagem{
+    background-color: rgba(51, 51, 51, 0.589);
+    color: white;
+    padding: 10px 5px 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    text-shadow: 5px 0px 30px rgba(24, 24, 24, 0.274);
+    border-radius: 10px 0px 10px 0px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.418);
+    font-size: 1em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section.seção1, .seção3, .seção5{
+
+        padding: 10vh 0px 10vh 30px;
+        text-align: left;
+        font-size: 4.5vw;
+        line-height: 1.7em;
+        
+}
+
+section.seção2, .seção4, .seção6{
+
+    padding: 10px 0px 10px 30px;
+        text-align: left;
+        font-size: 4.5vw;
+        line-height: 1.7em;
+        background-color: black;   
+}
+
+.seção2#magem1{
+    background-image: url(Imagens/environment-g13aa7ff1f_1920.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left center;
+}
+
+.seção4#magem2{
+    background-image: url(Imagens/lightbulb-g742080c4d_1920.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left center;
+}
+
+.seção6#magem3{
+    background-image: url(Imagens/outdoors-578650.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+footer {
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+}
+
+a.rodape{
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
