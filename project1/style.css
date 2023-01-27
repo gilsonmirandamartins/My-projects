@@ -88,7 +88,8 @@ section.seção2, .seção4, .seção6{
         text-align: left;
         font-size: 4.5vw;
         line-height: 1.7em;
-        background-color: black;   
+        background-color: black;  
+         
 }
 
 .seção2#magem1{
@@ -103,6 +104,7 @@ section.seção2, .seção4, .seção6{
     background-attachment: fixed;
     background-size: cover;
     background-position: left center;
+    
 }
 
 .seção6#magem3{
