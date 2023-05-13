@@ -16,17 +16,11 @@ main{
     margin: auto;
     min-width: 320;
     max-width: 800px;
-}
-
-div.i1{
-    display: block;
-    
-}
-
-header{
-    margin: auto;
     background-image: linear-gradient(to left, blue, purple);
-    
+}
+
+h1{
+    padding: 0px 0x 0px 70px;
 }
 
 
