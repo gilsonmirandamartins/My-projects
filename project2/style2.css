@@ -20,7 +20,8 @@ main > div{
   margin: auto;
   margin-top: 50%;
   padding: 20px;
-  background-image: linear-gradient(to right, rgba(117, 98, 62, 0.384), rgba(64, 64, 146, 0.342));
+  background-image: linear-gradient(to right, rgba(117, 98, 62, 0.281), rgba(64, 64, 146, 0.301));
+  border-radius: 10px;
 }
 
 h1{
