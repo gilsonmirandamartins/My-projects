@@ -18,6 +18,8 @@ main > div{
   display: block;
   text-align: center;
   margin: auto;
+  max-width: 800px;
+  min-width: 350px;
   margin-top: 50%;
   padding: 20px;
   background-image: linear-gradient(to right, rgba(117, 98, 62, 0.281), rgba(64, 64, 146, 0.301));
