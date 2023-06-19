@@ -8,6 +8,8 @@
 
 body{
     margin: auto;
+    max-width: 800px;
+    min-width: 350px;
     display: flex;
     justify-content: center;
     background: black url(imagens/ImagemDEFUNDOpg02.png);
