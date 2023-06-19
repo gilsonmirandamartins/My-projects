@@ -8,6 +8,7 @@
 
 body{
     margin: auto;
+    min-width: 350px;
 }
 
 hr{
