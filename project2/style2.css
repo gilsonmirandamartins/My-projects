@@ -24,6 +24,7 @@ main > div{
   max-width: 800px;
   min-width: 350px;
   margin-top: 50%;
+  margin-bottom: 50%;
   padding: 20px;
   background-image: linear-gradient(to right, rgba(117, 98, 62, 0.281), rgba(64, 64, 146, 0.301));
   border-radius: 10px;
@@ -79,5 +80,19 @@ a.lin2{
   height: 20px;
   max-width: 800px;
   min-width: 250px;
-  padding: 20px 0px 20px 0px;
+  
+}
+
+a.lin3{
+  display: block;
+  text-align: center;
+  margin: auto;
+
+  color: aliceblue;
+  font-weight: bolder;
+  margin-top: 20px;
+  height: 10px;
+  max-width: 800px;
+  min-width: 250px;
+    
 }
