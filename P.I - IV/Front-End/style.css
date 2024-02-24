@@ -108,3 +108,25 @@ a.lin3:hover{
 a.lin2:hover{
   text-decoration: underline;
 }
+
+.switch{ 
+  position: relative;
+  width: 20px;
+  height: 10px;
+  left: 20%;
+  margin: 8px auto 0px;
+}
+
+.switch button{ 
+
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.029) url(./img/olho.svg) no-repeat center;
+  border: 0px;
+  border-radius: 50%;
+  background-size: 25px;
+  position: absolute;
+  left: 0;
+  transform: translateY(-130%);
+}
+
