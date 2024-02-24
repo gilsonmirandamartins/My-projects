@@ -73,6 +73,7 @@ a.lin2{
   display: block;
   text-align: center;
   margin: auto;
+  text-decoration: none;
 
   color: aliceblue;
   font-weight: bolder;
@@ -87,6 +88,7 @@ a.lin3{
   display: block;
   text-align: center;
   margin: auto;
+  text-decoration: none;
 
   color: aliceblue;
   font-weight: bolder;
