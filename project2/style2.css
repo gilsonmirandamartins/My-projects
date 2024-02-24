@@ -98,3 +98,11 @@ a.lin3{
   min-width: 250px;
     
 }
+
+a.lin3:hover{
+  text-decoration: underline;
+}
+
+a.lin2:hover{
+  text-decoration: underline;
+}
