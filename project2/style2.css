@@ -12,7 +12,7 @@ body{
   min-width: 350px;
   display: flex;
   justify-content: center;
-  background: black url(imagens/ImagemDEFUNDOpg02.png);
+  background: linear-gradient(to right, #FD6454, #FF8252, #FF9C51, #FFB051);
   background-size: cover;
     
 }
@@ -26,7 +26,7 @@ main > div{
   margin-top: 50%;
   margin-bottom: 50%;
   padding: 20px;
-  background-image: linear-gradient(to right, rgba(117, 98, 62, 0.281), rgba(64, 64, 146, 0.301));
+  background-color: rgba(255, 255, 255, 0.603);
   border-radius: 10px;
 }
 
@@ -40,12 +40,14 @@ h3{
 
 input#in1{
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
 input#in2{
   padding: 10px;
   margin-top: 10px;
+  border-radius: 10px;
 }
 
 a.lin1{
@@ -54,18 +56,18 @@ a.lin1{
   margin: auto;
   margin-left: 67px;
 
-  background-color: rgba(243, 127, 18, 0.788);
+  background-color: rgb(5, 135, 228);
   color: aliceblue;
   font-weight: bolder;
 
   margin-top: 20px;
-  height: 20px;
+  height: 5px;
   max-width: 250px;
   min-width: 250px;
-  padding: 20px 0px 20px 0px;
+  padding: 10px 0px 20px 0px;
 
   text-decoration: none;
-  border-radius: 15px;
+  border-radius: 0px;
   box-shadow: black 1px 1px 3px ;
 }
 
@@ -75,7 +77,7 @@ a.lin2{
   margin: auto;
   text-decoration: none;
 
-  color: aliceblue;
+  color: rgb(31, 30, 30);
   font-weight: bolder;
   margin-top: 20px;
   height: 20px;
@@ -89,8 +91,8 @@ a.lin3{
   text-align: center;
   margin: auto;
   text-decoration: none;
+  color: rgb(31, 30, 30);
 
-  color: aliceblue;
   font-weight: bolder;
   margin-top: 20px;
   height: 10px;
