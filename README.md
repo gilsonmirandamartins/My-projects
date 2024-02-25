@@ -18,4 +18,4 @@ Nome   | Função
  Gilson Miranda       | Front-End        
  Paulo Robert         | Front-End, Back-End  
  Fabricio Rodrigues   | Back-End
- Geraldo  Pereira     | Back-End, Gencimento
+ Geraldo  Pereira     | Back-End, Gerenciamento
