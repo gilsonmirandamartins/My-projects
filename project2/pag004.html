@@ -7,58 +7,63 @@
     <link rel="stylesheet" href="style04.css">
 </head>
 <body>
+    <!--Tela de cadastro de usuários-->
     <div>
-        <h1>Cadastro de usuário</h1>
-        <p>Complete sua informações abaixo</p>
+        <h1 class="titulo">Cadastro de usuário</h1>
+        <p class="subtitulo">Complete sua informações abaixo</p>
     </div>
 
+    <!--Ess fieldset é vai conter todas as informações de nome, 
+    sobrenome, email, data de nascimento e data de cadastro-->
     <fieldset>
-        <div>
-            <label>Nome</label>
-            <input type="text" nome="nome" id="nome" placeholder="Digite seu nome">
+        <div class="campo">
+            <label><strong>Nome</strong></label>
+            <input type="text" nome="nome" id="nome" placeholder="Digite seu nome" required>
         </div>
 
-        <div>
-            <label>Sobrenome</label>
-            <input type="text" nome="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+        <div class="campo">
+            <label><strong>Sobrenome</strong></label>
+            <input type="text" nome="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
         </div>
 
-        <div>
-            <label>Email</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu email">
+        <div class="campo">
+            <label><strong>Email</strong></label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
         </div>
 
-        <div>
-            <label>Data de nascimento</label>
-            <input type="date" name="nascimento" value="date_de_nascimento">
+        <div class="campo">
+            <label><strong>Cidade</strong></label>
+            <input type="text" name="cidade" id="cidade">
         </div>
 
-        <div>
-            <label>Data de cadastro</label>
-            <input type="date" name="cadastro" value="date_de_cadastro">
+        <div class="campo">
+            <label><strong>Estado</strong></label>
+            <select name="" id=""><option>AC</option> <option>AL</option> <option>AP</option> <option>AM</option> <option>BA</option> <option>CE</option> <option>DF</option> <option>ES</option> <option>GO</option> <option>MA</option> <option>MT</option> <option>MS</option> <option>MG</option> <option>PA</option> <option>PB</option> <option>PR</option> <option>PE</option> <option>PI</option> <option>RJ</option> <option>RN</option> <option>RS</option> <option>RO</option> <option>RR</option> <option>SC</option> <option>SP</option> <option>SE</option> <option>TO</option></select>
+        </div>
+
+        <div class="campo">
+            <label><strong>Data de nascimento</strong></label>
+            <input type="date" name="nascimento" value="Data de nascimento">
+        </div>
+
+        <div class="campo">
+            <label><strong>Data de cadastro</strong></label>
+            <input type="date" name="cadastro" value="Data de cadastro">
+        </div>
+
+        <div class="campo">
+            <label><strong>Qual seu gênero?</strong></label>
+            <select id="gênero">
+                <option selected disabled value="">Selecione</option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Não binário</option>
+                <option>Transgênero</option>
+                <option>Outros</option>
+            </select>
         </div>
     </fieldset>
-
-    <div>
-        <label>Cadastro ativo?</label>
-        <label>
-            <input type="radio" name="escolha" value="ativo" checked>Sim
-        </label>
-        <label>
-            <input type="radio" name="escolha" value="nao_ativo">Não
-        </label>
-    </div>
-
-    <div>
-        <label>Qual seu gênero?</label>
-        <select id="gênero">
-            <option selected disabled value="">Selecione</option>
-            <option>Masculino</option>
-            <option>Feminino</option>
-            <option>Não binário</option>
-            <option>Transgênero</option>
-            <option>Outros</option>
-        </select>
-    </div>
+    
+    <button type="submit">Enviar</button>
 </body>
 </html>
