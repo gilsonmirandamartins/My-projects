@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style04.css">
+</head>
+<body>
+    <div>
+        <h1>Cadastro de usuário</h1>
+        <p>Complete sua informações abaixo</p>
+    </div>
+
+    <fieldset>
+        <div>
+            <label>Nome</label>
+            <input type="text" nome="nome" id="nome" placeholder="Digite seu nome">
+        </div>
+
+        <div>
+            <label>Sobrenome</label>
+            <input type="text" nome="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email">
+        </div>
+
+        <div>
+            <label>Data de nascimento</label>
+            <input type="date" name="nascimento" value="date_de_nascimento">
+        </div>
+
+        <div>
+            <label>Data de cadastro</label>
+            <input type="date" name="cadastro" value="date_de_cadastro">
+        </div>
+    </fieldset>
+
+    <div>
+        <label>Cadastro ativo?</label>
+        <label>
+            <input type="radio" name="escolha" value="ativo" checked>Sim
+        </label>
+        <label>
+            <input type="radio" name="escolha" value="nao_ativo">Não
+        </label>
+    </div>
+
+    <div>
+        <label>Qual seu gênero?</label>
+        <select id="gênero">
+            <option selected disabled value="">Selecione</option>
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option>Não binário</option>
+            <option>Transgênero</option>
+            <option>Outros</option>
+        </select>
+    </div>
+</body>
+</html>
