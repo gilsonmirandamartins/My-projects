@@ -19,8 +19,10 @@
 }
 
 fieldset{
-    background-color: #3D3C3D;
+    display: block;
     border: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 body{
@@ -31,4 +33,34 @@ body{
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
+}
+
+button{
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.campo{
+    padding: 20px;
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select {
+padding: 0.2em;
+border: 1px solid #59429d;
+box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus{
+    background: #dfc4b9 ;
 }
