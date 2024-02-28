@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, rgba(207, 39, 39, 0.962), rgba(0, 0, 255, 0.885));
+    margin: auto;
+    max-width: 1050px;
+    min-width: 350;
+}
+
+form{
+    box-shadow: 2px 4px 10px black;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.904);
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    width: 300px;
+    
+    
+}
+
+div{
+    margin: 20px 150px 11px 0px;
+    font-size: 18px;
+}
+
+input{
+    width: 200px;
+    height: 20px;
+}
+
+.botao{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+input.b1{
+    height: 35px;
+}
+
+select{
+    margin: 0px 120px 50px 0px;
+}
+
+input:focus{
+    background: rgba(198, 194, 255, 0.271);
+}
+
+label{
+    text-shadow: 0.2px 0.2px 0.2px black;
+}
